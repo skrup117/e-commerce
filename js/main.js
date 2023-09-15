@@ -2,18 +2,18 @@ import {
     drawProducts, 
     drawProductsInCart, 
     drawTotal,
-} from './functions/draw.js'
+} from 'functions/draw.js'
 
 import {
     getProduct,
-} from './helpers.js'
+} from 'helpers.js'
 
 import {
     handleAddCart, 
     handleCartShow, 
     handleBuy, 
     handleOptionsCard,
-} from './functions/handles.js'
+} from 'functions/handles.js'
 //===============================================================
 var loader = document.getElementById("loader");
 
