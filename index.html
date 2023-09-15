@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="Image\pagina.png">
+    <title>ecommerce</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <script src="./src/js/main.js" type="module" defer></script>
+</head>
+<body>
+    <div class="timeLoading"><iframe width="560" height="315" src="https://www.youtube.com/embed/zLX_GcXt2pI?si=1S-GTN1q1wpblB5_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+    <div id="loader"></div>
+    <!-- iconos para modo oscuro/luminoso
+            <i class='bx bx-moon' ></i>
+            <i class='bx bx-sun' ></i>
+            camiseta 15 para la portada
+            -->  
+
+    <div id = "overlay" class = "overlayG">
+        
+
+    </div>
+
+    <header id = "navbar" class="contentNav">
+        <nav class="navBar">
+            <div class="headLines">
+                <a href="#"><img src="Image/STORE.png" alt=""></a>
+                <a href="#">Home</a>
+                <a href="#">products</a>
+            </div>
+            <!-- iconos para modo oscuro/luminoso
+            <i class='bx bx-moon' ></i>
+            <i class='bx bx-sun' ></i>
+            <i class='bx bxs-dashboard handleIconNavbar' ></i>
+            camiseta 15 para la portada
+            -->  
+            <div class="iconsHeadLines">
+                <i class='bx bx-moon' ></i>
+                <i class='bx bx-shopping-bag'>
+                    <div class="fisgon">
+                        <span id="fisgon"></span>
+                    </div> 
+                </i>
+            </div>
+            
+        </nav>
+    </header>
+
+    <section class="start">
+        <div class="ini">
+            <div class="ini__info">
+                <div class="ini_title">
+                    <h1>New Sweatshirt</h1>
+                    <h1>COLECTIONS 2024</h1>
+                </div>
+                
+                <p id="labia">Latest arrival of the new Hanes Midweight Crewneck sweatshirt imported from the 2022 series, with a modern design.</p>
+                <div class="prince_ini"><h2>$14.00</h2></div>
+                <div class="btn__more"><button class="btn__showMore">Show more</button></div>
+                
+
+            </div>
+            <div class="ini__image">
+                <img src="Image/sweater2_y7yzqs.png" alt="">
+            </div>
+            
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="bnt__product">
+            <div class="btn__all"><button id="btn2"class="btn__all1"><h3>Show all</h3><p>Show all products</p></button></div>
+            <div class="btn__shirt"><button class="btn__shirt1"><h3>Shirt</h3><p>7 products</p></button></div>
+            <div class="btn__hoddie"><button class="btn__hoddie1"><h3>Hoddie</h3><p>6 products</p></button></div>
+            <div class="btn__sweater"><button class="btn__sweater1"><h3>Sweater</h3><p>5 products</p></button></div>
+        </div>
+        <section class="products"></section>  
+    </main>
+
+    <section class="end">
+        <div class="aboutus">
+            <div class="ourinformation">
+                <h3>Our information</h3>
+                <a href="#">Toluca - México</a>
+            </div>
+            <div class="Aaboutus">
+                <h3>About Us</h3>
+                <div class="Aaboutus__content">
+                    <a href="#">Support Center</a>
+                    <a href="#">Customer Support</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Copy Right</a>
+                </div>
+            </div>
+            <div class="pproduct">
+                <h3>Product</h3>
+                <div class="pproduct__content">
+                    <a href="#">Hoodies</a>
+                    <a href="#">Shirts</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Sweatshirts</a>
+                </div>
+            </div>
+            <div class="social">
+                <h3>Social</h3>
+                <div class="social__content">
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-twitter' ></i>
+                    <i class='bx bxl-instagram' ></i>
+                </div> 
+            </div>
+        </div>
+        <div class="studentinfo">
+            <p>Luis Angel Preciado Paz, skrup117@gmail.com </p>
+        </div> 
+    </section>
+
+    <section class="cart">
+        <div class="cart__products">
+
+        </div>
+        <div class="cart__total">
+            <div class="cart__total__info">
+                <span id="totalItems"></span>
+                <span id="totalMoney"></span>
+            </div>
+            <button class="btn__buy">Comprar</button>
+
+        </div>
+    </section>
+</body>
+</html>
