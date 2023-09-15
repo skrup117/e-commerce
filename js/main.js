@@ -6,7 +6,7 @@ import {
 
 import {
     getProduct,
-} from '../../src/js/functions/helpers.js'
+} from './helpers.js'
 
 import {
     handleAddCart, 
